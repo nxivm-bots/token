@@ -19,7 +19,7 @@ PREMIUM_CREDITS = {
 
 
 AUTO_DELETE_DELAY = int(os.environ.get("AUTO_DELETE_DELAY", 1800))# Auti delete time
-START_COMMAND_LIMIT = int(os.environ.get("START_COMMAND_LIMIT", 15))# Default limit for new users
+START_COMMAND_LIMIT = int(os.environ.get("START_COMMAND_LIMIT", 0))# Default limit for new users
 
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7548080330:AAHRzKtxq0gpj6vER-bPrBs7HonlH0lfOQM")
 APP_ID = int(os.environ.get("APP_ID", "22505271"))
